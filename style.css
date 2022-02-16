@@ -1,18 +1,34 @@
 .calculator{
-    height: 360px;
+    height: 340px;
     width: 280px;
     background-color: rgb(180, 180, 180, .5);
     margin: 0 auto;
     margin-top: 20px;
     border: 2px solid black;
     border-radius: 5px;
-}
-#display{
-    padding: 5px;
+    padding: 10px;
 }
 #display-value{
     padding: 5px;
     text-align: right;
     font-size: 30px;
     border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    font-size: 20px;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: none;
+}
+
+
+
+.last-line input{
+    width: 124px;
 }
